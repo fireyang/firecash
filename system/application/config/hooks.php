@@ -10,7 +10,13 @@
 |
 */
 
-
+//$hook['pre_controller'][] = array(
+$hook['post_controller_constructor'][] = array(
+        'class'  => 'Acl',
+        'function'  => 'hook_acl',
+        'filename'  => 'acl.php',
+        'filepath'  => 'hooks'
+    );
 
 /* End of file hooks.php */
 /* Location: ./system/application/config/hooks.php */
