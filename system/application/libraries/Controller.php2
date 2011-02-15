@@ -1,0 +1,8 @@
+<?php
+echo "yang";
+class MY_Controller extends Controller{
+    function MY_Controller()
+    {
+        parent::Controller();
+    }
+}

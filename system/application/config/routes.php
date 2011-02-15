@@ -42,7 +42,7 @@
 
 $route['default_controller'] = "blog";
 //$route['default_controller'] = "welcome";
-$route['scaffolding_trigger'] = "scaffolding";
+$route['scaffolding_trigger'] = "scaf";
 
 
 /* End of file routes.php */

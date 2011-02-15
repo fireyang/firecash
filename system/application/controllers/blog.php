@@ -3,11 +3,13 @@ class Blog extends Controller{
     function Blog()
     {
         parent::Controller();
-        $this->load->scaffolding("user");
+        //$this->load->scaffolding("user");
+        $this->load->library('firephp');
     }
     function index()
     {
         $this->session->set_userdata(array('name'=>'fireyang'));
+        //$this->firephp->log("test");
         echo 'Hello World!:';
         echo $this->session->userdata('name');
         /*$this->load->model('User_model');
